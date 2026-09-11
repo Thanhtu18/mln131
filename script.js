@@ -117,16 +117,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- MINI GAME Ô CHỮ ---
     const gameData = [
-        { answer: "THUCTIEN", question: "1. Bối cảnh lịch sử xã hội VN và thế giới cuối thế kỷ 19 - đầu thế kỷ 20 được gọi là cơ sở ... của Tư tưởng Hồ Chí Minh?", offset: 3, keywordIndex: 0 },
-        { answer: "CUUNUOC", question: "2. Ngày 5/6/1911, Bác Hồ ra đi từ Bến cảng Nhà Rồng với mục đích tìm đường gì?", offset: 2, keywordIndex: 1 },
-        { answer: "DANTOC", question: "3. Nhiệm vụ hàng đầu của Cách mạng Việt Nam theo Tư tưởng Hồ Chí Minh là giải phóng ...?", offset: 0, keywordIndex: 3 },
-        { answer: "LUANCUONG", question: "4. Tháng 7/1920, Nguyễn Ái Quốc đọc được ... của V.I.Lênin về vấn đề dân tộc và thuộc địa.", offset: 2, keywordIndex: 1 },
-        { answer: "THUOCDIA", question: "5. Việt Nam cuối thế kỷ XIX bị thực dân Pháp biến thành một nước ... nửa phong kiến.", offset: 0, keywordIndex: 3 },
-        { answer: "LENIN", question: "6. Người lãnh đạo Cách mạng Tháng Mười Nga (1917) thành công là ai?", offset: 1, keywordIndex: 2 },
-        { answer: "GIAIPHONG", question: "7. \"Độc lập dân tộc\" trong tư tưởng Hồ Chí Minh và đường lối cách mạng Việt Nam là gắn liền với chủ nghĩa xã hội (hoặc đi liền với vấn đề ... giai cấp).", offset: 3, keywordIndex: 0 },
-        { answer: "VANHOA", question: "8. Năm 1987, UNESCO đã tôn vinh Hồ Chí Minh là \"Nhà ... kiệt xuất của Việt Nam\".", offset: 0, keywordIndex: 3 },
-        { answer: "KACHMENH", question: "9. Cuốn sách xuất bản năm 1927, tập hợp các bài giảng của Nguyễn Ái Quốc tại Quảng Châu tên là \"Đường ...\".", offset: 1, keywordIndex: 2 },
-        { answer: "MACLENIN", question: "10. Chủ nghĩa ... là tiền đề lý luận quyết định bước phát triển về chất của Tư tưởng Hồ Chí Minh.", offset: 3, keywordIndex: 0 }
+        { answer: "DOIMOI", question: "1. Đại hội VI của Đảng năm 1986 đề ra đường lối ... toàn diện đất nước.", offset: 3, keywordIndex: 0 },
+        { answer: "TAM", question: "2. Chế độ dân chủ nhân dân ở nước ta được xác lập sau Cách mạng Tháng ... năm 1945.", offset: 2, keywordIndex: 1 },
+        { answer: "NHANDAN", question: "3. Theo tư tưởng Hồ Chí Minh, tất cả quyền lực nhà nước đều thuộc về ...?", offset: 3, keywordIndex: 0 },
+        { answer: "QUOCHOI", question: "4. Tổ chức đại diện do nhân dân bầu ra và là cơ quan quyền lực nhà nước cao nhất là gì?", offset: 0, keywordIndex: 3 },
+        { answer: "PHAPLUAT", question: "5. Dân chủ gắn liền với kỷ cương và phải được thể chế hóa bằng gì?", offset: 2, keywordIndex: 1 },
+        { answer: "QUANLY", question: "6. Mọi công dân đều có quyền tham gia ... xã hội bằng nhiều cách khác nhau.", offset: 2, keywordIndex: 1 }
     ];
 
     const board = document.getElementById('crossword-board');
