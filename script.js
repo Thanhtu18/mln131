@@ -122,7 +122,11 @@ document.addEventListener('DOMContentLoaded', () => {
         { answer: "NHANUOC", question: "3. Dân chủ được thực hiện dựa vào sự ủng hộ của nhân dân và dựa vào ... xã hội chủ nghĩa.", offset: 1, keywordIndex: 3 },
         { answer: "CACHMANG", question: "4. Điền từ còn thiếu: '... là sự nghiệp của quần chúng.'", offset: 4, keywordIndex: 0 },
         { answer: "QUOCHOI", question: "5. Cơ quan quyền lực nhà nước cao nhất ở Việt Nam do nhân dân trực tiếp bầu ra là gì?", offset: 0, keywordIndex: 4 },
-        { answer: "UYQUYEN", question: "6. Trong dân chủ gián tiếp, nhân dân giao quyền lực cho tổ chức đại diện thông qua hình thức gì?", offset: 4, keywordIndex: 0 }
+        { answer: "UYQUYEN", question: "6. Trong dân chủ gián tiếp, nhân dân giao quyền lực cho tổ chức đại diện thông qua hình thức gì?", offset: 4, keywordIndex: 0 },
+        { answer: "XAHOI", question: "7. Các lĩnh vực thực hiện dân chủ gồm: Kinh tế, Chính trị, Văn hóa, và ...?", offset: 4, keywordIndex: 0 },
+        { answer: "HOCHIMINH", question: "8. Tư tưởng: 'Nước ta là nước dân chủ' là của ai?", offset: 4, keywordIndex: 0 },
+        { answer: "CONGDAN", question: "9. Dân chủ ... gắn liền với kỷ cương của đất nước và được thể chế hóa bằng pháp luật.", offset: 4, keywordIndex: 0 },
+        { answer: "VOSAN", question: "10. Trước thời kỳ đổi mới, chế độ làm chủ tập thể gắn liền với việc nắm vững chuyên chính gì?", offset: 0, keywordIndex: 4 }
     ];
 
     const board = document.getElementById('crossword-board');
